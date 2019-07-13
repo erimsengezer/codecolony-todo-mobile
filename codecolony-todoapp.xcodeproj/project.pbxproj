@@ -15,6 +15,12 @@
 		E5C86C7222DA0B0D00CC9247 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C86C7022DA0B0D00CC9247 /* LaunchScreen.storyboard */; };
 		E5C86C7D22DA0B0D00CC9247 /* codecolony_todoappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C86C7C22DA0B0D00CC9247 /* codecolony_todoappTests.swift */; };
 		E5C86C8822DA0B0D00CC9247 /* codecolony_todoappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C86C8722DA0B0D00CC9247 /* codecolony_todoappUITests.swift */; };
+		E5C86C9A22DA0B2B00CC9247 /* text.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C86C9522DA0B2A00CC9247 /* text.png */; };
+		E5C86C9B22DA0B2B00CC9247 /* top.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C86C9622DA0B2A00CC9247 /* top.png */; };
+		E5C86C9C22DA0B2B00CC9247 /* buttom.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C86C9722DA0B2B00CC9247 /* buttom.png */; };
+		E5C86C9D22DA0B2B00CC9247 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C86C9822DA0B2B00CC9247 /* login.png */; };
+		E5C86C9E22DA0B2B00CC9247 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C86C9922DA0B2B00CC9247 /* button.png */; };
+		E5C86CA322DA22E100CC9247 /* TodosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C86CA222DA22E100CC9247 /* TodosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		E5C86C8322DA0B0D00CC9247 /* codecolony-todoappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "codecolony-todoappUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C86C8722DA0B0D00CC9247 /* codecolony_todoappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codecolony_todoappUITests.swift; sourceTree = "<group>"; };
 		E5C86C8922DA0B0D00CC9247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5C86C9522DA0B2A00CC9247 /* text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text.png; sourceTree = "<group>"; };
+		E5C86C9622DA0B2A00CC9247 /* top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top.png; sourceTree = "<group>"; };
+		E5C86C9722DA0B2B00CC9247 /* buttom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttom.png; sourceTree = "<group>"; };
+		E5C86C9822DA0B2B00CC9247 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
+		E5C86C9922DA0B2B00CC9247 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		E5C86CA222DA22E100CC9247 /* TodosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +111,10 @@
 		E5C86C6322DA0B0C00CC9247 /* codecolony-todoapp */ = {
 			isa = PBXGroup;
 			children = (
+				E5C86C9F22DA0B3A00CC9247 /* image */,
 				E5C86C6422DA0B0C00CC9247 /* AppDelegate.swift */,
 				E5C86C6622DA0B0C00CC9247 /* ViewController.swift */,
+				E5C86CA222DA22E100CC9247 /* TodosViewController.swift */,
 				E5C86C6822DA0B0C00CC9247 /* Main.storyboard */,
 				E5C86C6E22DA0B0D00CC9247 /* Assets.xcassets */,
 				E5C86C7022DA0B0D00CC9247 /* LaunchScreen.storyboard */,
@@ -126,6 +140,18 @@
 				E5C86C8922DA0B0D00CC9247 /* Info.plist */,
 			);
 			path = "codecolony-todoappUITests";
+			sourceTree = "<group>";
+		};
+		E5C86C9F22DA0B3A00CC9247 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				E5C86C9622DA0B2A00CC9247 /* top.png */,
+				E5C86C9822DA0B2B00CC9247 /* login.png */,
+				E5C86C9522DA0B2A00CC9247 /* text.png */,
+				E5C86C9922DA0B2B00CC9247 /* button.png */,
+				E5C86C9722DA0B2B00CC9247 /* buttom.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +258,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5C86C9B22DA0B2B00CC9247 /* top.png in Resources */,
 				E5C86C7222DA0B0D00CC9247 /* LaunchScreen.storyboard in Resources */,
+				E5C86C9E22DA0B2B00CC9247 /* button.png in Resources */,
+				E5C86C9D22DA0B2B00CC9247 /* login.png in Resources */,
+				E5C86C9A22DA0B2B00CC9247 /* text.png in Resources */,
 				E5C86C6F22DA0B0D00CC9247 /* Assets.xcassets in Resources */,
 				E5C86C6A22DA0B0C00CC9247 /* Main.storyboard in Resources */,
+				E5C86C9C22DA0B2B00CC9247 /* buttom.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5C86CA322DA22E100CC9247 /* TodosViewController.swift in Sources */,
 				E5C86C6722DA0B0C00CC9247 /* ViewController.swift in Sources */,
 				E5C86C6D22DA0B0C00CC9247 /* codecolony_todoapp.xcdatamodeld in Sources */,
 				E5C86C6522DA0B0C00CC9247 /* AppDelegate.swift in Sources */,
